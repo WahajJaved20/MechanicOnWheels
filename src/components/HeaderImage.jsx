@@ -5,7 +5,8 @@ const HeaderImage = () => {
     return (
             <div className="w-full bg-cover bg-opacity-50" >
                 <div className="flex h-full items-center" style={{ minHeight: '80vh'}}>
-                    <div className="flex-1 flex flex-col items-center justify-center p-8 bg-black bg-opacity-45">
+                    <div className="flex-1 flex flex-row items-center justify-center p-8 bg-black bg-opacity-45">
+                        
                         <h1 className="text-white text-[120px] text-black font-vvdsBold mb-4">Mechanic On <br /> Wheels.</h1>
                     </div>
                     <div className="flex-1 flex flex-col items-center justify-center p-8  font-vvdsRegular text-2xl">

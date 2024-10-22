@@ -1,4 +1,4 @@
-import headerCar from "./bg2.webp"
+import headerCar from "./bg.webp"
 import logo from "./logo.png"
-
-export { headerCar, logo };
+import userIcon from "./profile.png"
+export { headerCar, logo, userIcon };
