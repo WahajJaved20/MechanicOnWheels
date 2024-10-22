@@ -1,11 +1,10 @@
-import Sidebar from "./Sidebar";
-import Topbar from "./Topbar";
+import Bars from "./Bars";
+
 
 
 const Dashboard = () => {
     return <div>
-        <Topbar />
-        <Sidebar />
+        <Bars />
     </div>
 }
 

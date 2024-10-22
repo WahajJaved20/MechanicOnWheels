@@ -163,7 +163,7 @@ export const themeSettings = (mode) => {
         fontFamily: ["vvdsRegular", "sans-serif"].join(","),
         fontSize: 12,
         h1: {
-          fontFamily: ["vvdsBold", "sans-serif"].join(","),
+          fontFamily: ["vvdsRegular", "sans-serif"].join(","),
           fontSize: 40,
         },
         h2: {

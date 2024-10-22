@@ -4,6 +4,8 @@ import { ColorModeContext, useMode } from './globals/theme';
 import HomePage from './components/HomePage';
 import Dashboard from './components/Dashboard';
 import { CssBaseline, ThemeProvider } from '@mui/material';
+import Team from './components/TeamView';
+import UserForm from './components/AddUserForm';
 
 function App() {
 	const [theme, colorMode] = useMode();
@@ -17,6 +19,8 @@ function App() {
 							<Routes>
 								<Route path="/" element={<HomePage />} />
 								<Route path="/dashboard" element={<Dashboard />} />
+								<Route path="/dashboard/manageTeam" element={<Team />} />
+								<Route path='/dashboard/userForm' element={<UserForm />}/>
 							</Routes>
 						</Router>
 					</main>
