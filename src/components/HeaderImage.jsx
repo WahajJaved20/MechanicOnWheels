@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Input } from "@material-tailwind/react";
+import { Link } from 'react-router-dom';
 const HeaderImage = () => {
 
     return (
@@ -15,7 +16,10 @@ const HeaderImage = () => {
                             <input type="email" className="p-2 w-full bg-[#ffffff] text-black" placeholder="Email" />
                         <h3 className="text-white text-[20px] text-black font-vvdsRegular">Password</h3>
                             <input type="password" className="p-2 bg-[#ffffff] text-black" placeholder="Password" />
-                            <button className="bg-[#db5a31] text-white px-4 py-2 rounded-md">Log In</button>
+                            <Link to="/dashboard">
+                            <button 
+                            className="bg-[#db5a31] text-white px-4 py-2 rounded-md">Log In</button>
+                            </Link>
                         </form>
                     </div>
 
