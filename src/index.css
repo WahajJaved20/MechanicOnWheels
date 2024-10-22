@@ -1,0 +1,16 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "vvdsBold";   
+  src: local("VVDS-Fifties-SExp-SBold"),
+    url("fonts/vvds/VVDS-Fifties-SExp-SBold.otf") format("truetype");
+}
+
+@font-face {
+  font-family: "vvdsRegular";   
+  src: local("VVDS-Fifties-SExp-Reg"),
+    url("fonts/vvds/VVDS-Fifties-SExp-Reg.otf") format("truetype");
+}
